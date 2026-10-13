@@ -23,6 +23,7 @@ function StudentForm({ onSubmit }) {
       <h2>Student Form</h2>
 
       <input
+        type="text"
         placeholder="Student Name"
         value={name}
         onChange={(e) => setName(e.target.value)}
@@ -30,6 +31,7 @@ function StudentForm({ onSubmit }) {
       />
 
       <input
+        type="text"
         placeholder="Roll Number"
         value={roll}
         onChange={(e) => setRoll(e.target.value)}
@@ -37,6 +39,7 @@ function StudentForm({ onSubmit }) {
       />
 
       <input
+        type="text"
         placeholder="Department"
         value={department}
         onChange={(e) => setDepartment(e.target.value)}
